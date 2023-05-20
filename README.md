@@ -52,6 +52,6 @@ $ pip install -r requirements.txt
 
 ## Credits
 ```
-Author: Shu-Hao Wu
-Email: shwu2@illinois.edu
+- Author: Shu-Hao Wu
+- Email: shwu2@illinois.edu
 ```
