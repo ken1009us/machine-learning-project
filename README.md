@@ -1,54 +1,51 @@
-# Text Classification using GRU in Keras
+# Machine Learning Projects
 
-## Description
-```
-- This code implements a text classification model using GRU (Gated Recurrent Unit) in Keras.
-- The model is trained on a dataset containing text samples and their corresponding categories.
-- The goal is to predict the category of a given text sample.
-```
+This repository contains two machine learning projects implemented using Keras. The first project focuses on classifying handwritten digits from the MNIST dataset using a neural network model, while the second project implements a text classification model using GRU (Gated Recurrent Unit).
 
-## Requirements
-```
-Python 3.x
-Keras
-TensorFlow
-scikit-learn
-pandas
-numpy
-matplotlib
-```
-## Installation
-1. Clone the repository:
-```bash
-$ git clone <repository_url>
-```
+## Project 1: MNIST Handwritten Digit Classification
 
-2. Install the required dependencies:
-```bash
-$ pip install -r requirements.txt
-```
+### Description
 
-## Usage
-```
-1. Prepare the data:
+This code demonstrates the implementation of a neural network model using Keras to classify handwritten digits from the MNIST dataset.
 
-- Place the dataset file All_data_A01.csv in the same directory as the code.
-- Update the read_file() function to specify the correct path to the dataset file if needed.
-- Implement the dataframe() function to preprocess the dataset and convert the categories to numerical values.
-- Update the category mappings in df_num and df_cateEng according to your dataset.
-- Save the preprocessed data using pickle in the token() function.
+### Files
 
-2. Train the model:
+mnist-training.ipynb: Jupyter Notebook containing the code for building, training, and evaluating the neural network model.
+README.md: Providing an overview of the project.
 
-- Run the code to train the text classification model using GRU.
-- The code performs binary classification for each pair of categories in the dataset.
-- The trained models and logs will be saved in the Models_A01 directory.
+### Usage
 
-3. Evaluate the model:
+To run the project, follow these steps:
 
-- The code evaluates the trained models on the validation and test datasets.
-- The evaluation results are displayed and saved in the log file.
-```
+Install the required dependencies listed in requirements.txt.
+Open mnist-training.ipynb in Jupyter Notebook or any compatible environment.
+Run the notebook cells to execute the code and train the model.
+
+Evaluate the model's performance and explore the results.
+
+## Project 2: Text Classification using GRU
+
+### Description
+
+This code implements a text classification model using GRU (Gated Recurrent Unit) in Keras. The model is trained on a dataset containing text samples and their corresponding categories. The goal is to predict the category of a given text sample.
+
+### Files
+
+training-category-eng-a01.py: Containing the code for preprocessing the text data, building and training the GRU-based text classification model.
+README.md: Providing an overview of the project.
+
+### Usage
+
+To run the project, follow these steps:
+
+Install the required dependencies listed in requirements.txt.
+Run the python file to execute the code and train the text classification model.
+
+Evaluate the model's performance and make predictions on new text samples.
+
+## Conclusion
+
+These two projects showcase the implementation of machine learning models using Keras. The first project demonstrates the classification of handwritten digits, while the second project focuses on text classification using GRU. Feel free to explore the code and adapt it for your own datasets and use cases.
 
 ## Credits
 ```
